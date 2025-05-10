@@ -1,2 +1,4 @@
+import sklearn
+
 print("Hello, World!")
-print("修改")
+print(f"scikit-learn 已安装，版本号为: {sklearn.__version__}")
